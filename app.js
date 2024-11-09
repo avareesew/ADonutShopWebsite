@@ -12,7 +12,7 @@ app.use(express.static("public"));
 //old connection so i can get will's photos
 // MySQL connection
 const db = mysql.createConnection({
-  host: "pdcdbinstance.cfm06uw2grsj.us-east-2.rds.amazonaws.com",
+  host: "pythondonutsdb.c1qsomceyx8i.us-east-1.rds.amazonaws.com",
   user: "admin",
   password: "Password1",
   database: "donuts",
